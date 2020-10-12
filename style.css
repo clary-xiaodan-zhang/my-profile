@@ -1,0 +1,127 @@
+/* colors and fonts */
+
+/*
+	font-family: 'Chilanka', cursive;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Secular One', sans-serif;
+*/
+
+
+body {
+	/* the body is the parent element of everthing */
+	background-color: #f7f9fC;
+	color: #273646;
+	font-family: 'Chilanka', cursive;
+	font-size: 15px;
+}	
+
+
+h1, h2 {
+	font-family: 'Secular One', sans-serif;
+}
+
+h1 {
+	color: #679b9b;
+	font-size: 36px;	
+}
+
+h2 {
+	color: #637373;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: underline;
+    color: #ff9a76;
+    font-weight: bold;s
+    transition: color 0.3s ease;	
+}
+
+a:hover {
+	color: #ac4b1c;
+}
+
+
+
+/* custom design with classes */
+
+.container {
+	width: 800px;
+	margin: 40px auto;
+}
+
+@media (max-width: 850px) {
+	.container {
+		width: 600px;
+		
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: 400px;
+		
+	}
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.image-circle {
+	border-radius: 50%;
+}
+
+.btn-orange {
+	background-color: #ff9a76;
+	color: white;
+	padding: 15px 17px;
+	border-radius: 4px;
+	font-size: 17px;
+	transition: color 0.3s ease; /* why does this line not work? */
+}
+
+.btn-orange:hover {
+	background-color: #ac4b1c;
+	color: white;
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	 color: #D8BF8D;
+	 font-size: 40px;
+	 transition: color 0.3s ease; /* it works here */
+}
+
+.list-inline i:hover {
+	 font-size: 40px;
+	 color: #894723;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
